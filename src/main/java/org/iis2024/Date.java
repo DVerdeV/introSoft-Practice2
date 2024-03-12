@@ -26,6 +26,10 @@ public class Date {
   private final int year;
   private bool isLeapYear;
 
+  public void methodAddedByOwner() {
+    System.out.println("This method was added by the owner of the repo ;)");
+  }
+
   /**
    * Retrieves the day component of this date.
    *
